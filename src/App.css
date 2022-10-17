@@ -31,7 +31,11 @@ section{
 .logo2{
  align-self: center;
  min-width: 400px;
- height:232px;
-
-  
+ height: 295px;
+}
+.hero-header{
+   margin-bottom:16px;
+}
+.hero-text{
+  margin-top:0;
 }
