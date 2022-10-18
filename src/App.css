@@ -39,3 +39,25 @@ section{
 .hero-text{
   margin-top:0;
 }
+.card{
+  width: 176px; 
+  font-size: 12px;
+}
+.katie{
+width: 100%;
+height: 235px;
+border-radius: 9px;
+}
+.kate-stat{
+  display: flex;
+  align-items: center;
+}
+.star{
+  height: 12px;
+}
+.gray{
+  color: gray;
+}
+.bold{
+  font-weight: bold;
+}
