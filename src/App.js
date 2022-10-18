@@ -2,6 +2,7 @@ import './App.css';
 import Airlogo from './images/Airlogo.png'
 import airpics from './images/airpics.png'
 import katie from './images/katie.png'
+import star from './images/star.png'
 
 
 function Navbar(){
@@ -22,8 +23,16 @@ function Firstcontent(){
 }
  function Card(){
   return(
-    <div>
-      <img src={katie} alt="images/katie.png" />
+    <div className='card'>
+      <img src={katie} alt="images/katie.png" className='katie' />
+      <div className='katie-stat'>
+        <img src={star} alt='star.png' className='star'/>
+        <span >5.0 </span>
+        <span className='gray'> (6) . </span>
+        <span className='gray'> USA</span>
+      </div>
+      <p>Life lessons with Katie Zaferes</p>
+      <p> <span className='bold'>From $136 </span>/ person</p>
     </div>
   )
  }
