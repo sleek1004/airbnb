@@ -42,15 +42,19 @@ section{
 .card{
   width: 176px; 
   font-size: 12px;
+  flex: 0 0 auto;        
+  display: flex;          
+  flex-direction: column;
 }
-.katie{
-width: 100%;
-height: 235px;
-border-radius: 9px;
-}
-.kate-stat{
+
+.card-stat{
   display: flex;
   align-items: center;
+}
+.card-image {
+  width: 100%;
+  border-radius: 9px;
+  margin-bottom: 9px;
 }
 .star{
   height: 12px;
@@ -61,4 +65,16 @@ border-radius: 9px;
 .bold{
   font-weight: bold;
 }
-.holf
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+.card-title{
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.card-price{
+  margin: auto;
+}
