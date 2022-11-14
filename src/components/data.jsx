@@ -21,7 +21,7 @@ export default [
         coverImg: "wedding-photography.png",
         stats: {
             rating: 5.0,
-            reviewCount: 30
+            reviewCount: 30,
         },
         location: "Online",
         openSpots: 27,
