@@ -34,7 +34,7 @@ export default [
         coverImg: "mountain-bike.png",
         stats: {
             rating: 4.8,
-            reviewCount: 2
+            reviewCount: 2,
         },
         location: "Norway",
         openSpots: 3,
